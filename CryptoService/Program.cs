@@ -1,9 +1,10 @@
+using CryptoService.Core.Models;
 using CryptoService.Core.Repositories;
 using CryptoService.Core.Seeders;
 using CryptoService.Core.Services;
 using CryptoService.Infrastructure.Data;
 using CryptoService.Infrastructure.Repositories;
-using CryptoService.Models;
+using CryptoService.Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseInMemoryDatabase("crypto"));
+builder.Services.AddHttpClient<IPriceFinder, BitfinexPriceFinder>();
 builder.Services.AddScoped<IRepository<Symbol>, SymbolRepository>();
 builder.Services.AddScoped<ISymbolRepository, SymbolRepository>();
 builder.Services.AddScoped<CryptocurrencyService, CryptocurrencyService>();

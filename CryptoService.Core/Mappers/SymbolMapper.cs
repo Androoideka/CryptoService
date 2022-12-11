@@ -1,5 +1,5 @@
-﻿using CryptoService.Core.Responses;
-using CryptoService.Models;
+﻿using CryptoService.Core.Models;
+using CryptoService.Core.Responses;
 
 namespace CryptoService.Core.Mappers
 {

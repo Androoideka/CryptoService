@@ -1,5 +1,4 @@
 ﻿using CryptoService.Core.Models;
-using CryptoService.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace CryptoService.Infrastructure.Data

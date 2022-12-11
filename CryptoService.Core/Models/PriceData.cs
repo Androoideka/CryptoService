@@ -1,11 +1,8 @@
-﻿using CryptoService.Models;
-
-namespace CryptoService.Core.Models
+﻿namespace CryptoService.Core.Models
 {
     public class PriceData : Entity
     {
-        public PriceData(long id, decimal last, decimal high, decimal low, decimal bid, decimal ask)
-            : base(id)
+        public PriceData(decimal last, decimal high, decimal low, decimal bid, decimal ask)
         {
             FetchedAt = DateTime.Now;
             Last = last;

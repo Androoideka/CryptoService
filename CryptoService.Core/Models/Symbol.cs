@@ -1,11 +1,10 @@
-﻿using CryptoService.Core.Models;
-
-namespace CryptoService.Models
+﻿namespace CryptoService.Core.Models
 {
     public class Symbol : Entity
     {
-        public Symbol(long id, string name, string ticker) : base(id)
+        public Symbol(long id, string name, string ticker)
         {
+            Id = id;
             Name = name;
             Ticker = ticker;
         }

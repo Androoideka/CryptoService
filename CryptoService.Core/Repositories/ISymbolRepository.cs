@@ -1,4 +1,4 @@
-﻿using CryptoService.Models;
+﻿using CryptoService.Core.Models;
 
 namespace CryptoService.Core.Repositories
 {

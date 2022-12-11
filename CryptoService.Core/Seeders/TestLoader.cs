@@ -1,5 +1,5 @@
-﻿using CryptoService.Core.Repositories;
-using CryptoService.Models;
+﻿using CryptoService.Core.Models;
+using CryptoService.Core.Repositories;
 
 namespace CryptoService.Core.Seeders
 {

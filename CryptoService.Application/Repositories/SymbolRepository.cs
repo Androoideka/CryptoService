@@ -1,6 +1,6 @@
-﻿using CryptoService.Core.Repositories;
+﻿using CryptoService.Core.Models;
+using CryptoService.Core.Repositories;
 using CryptoService.Infrastructure.Data;
-using CryptoService.Models;
 
 namespace CryptoService.Infrastructure.Repositories
 {
