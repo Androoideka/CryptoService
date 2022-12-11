@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<SymbolList>
+	<Symbol id="tts-119608157" name="Bitcoin" ticker="BTCUSD"/>
+	<Symbol id="tts-233760000" name="Ethereum" ticker="ETHUSD"/>
+	<Symbol id="tts-233760123" name="XRP" ticker="XRPUSD"/>
+	<Symbol id="tts-216864119" name="Cardano" ticker="ADAUSD"/>
+	<Symbol id="tts-233760141" name="Solana" ticker="SOLUSD"/>
+	<Symbol id="tts-225154062" name="Polkadot" ticker="DOTUSD"/>
+	<Symbol id="tts-175205114" name="Dai" ticker="DAIUSD"/>
+	<Symbol id="tts-233760116" name="TRON" ticker="TRXUSD"/>
+	<Symbol id="tts-166281565" name="UNUS SED LEO" ticker="LEOUSD"/>
+	<Symbol id="tts-203872668" name="Uniswap" ticker="UNIUSD"/>
+	<Symbol id="tts-153377585" name="Ethereum Classic" ticker="ETCUSD"/>
+	<Symbol id="tts-233760028" name="Litecoin" ticker="LTCUSD"/>
+	<Symbol id="tts-233760057" name="FTX Token" ticker="FTTUSD"/>
+	<Symbol id="tts-116281757" name="Monero" ticker="XMRUSD"/>
+	<Symbol id="tts-161111602" name="Stellar" ticker="XLMUSD"/>
+	<Symbol id="tts-227276848" name="VeChain" ticker="VETUSD"/>
+	<Symbol id="tts-220899163" name="Internet Computer" ticker="ICPUSD"/>
+	<Symbol id="tts-212110884" name="Filecoin" ticker="FILUSD"/>
+	<Symbol id="tts-163795214" name="EOS" ticker="EOSUSD"/>
+	<Symbol id="tts-171882522" name="Tezos" ticker="XTZUSD"/>
+	<Symbol id="tts-226879055" name="Axie Infinity" ticker="AXSUSD"/>
+	<Symbol id="tts-157084202" name="Bitcoin SV" ticker="BSVUSD"/>
+	<Symbol id="tts-225154056" name="Pax Dollar" ticker="PAXUSD"/>
+	<Symbol id="tts-212110863" name="Zcash" ticker="ZECUSD"/>
+	<Symbol id="tts-123667389" name="IOTA" ticker="IOTUSD"/>
+	<Symbol id="tts-198572788" name="Maker" ticker="MKRUSD"/>
+	<Symbol id="tts-233760005" name="The Graph" ticker="GRTUSD"/>
+	<Symbol id="tts-233760136" name="Fantom" ticker="FTMUSD"/>
+	<Symbol id="tts-148974498" name="Neo" ticker="NEOUSD"/>
+	<Symbol id="tts-220899132" name="Enjin Coin" ticker="ENJUSD"/>
+	<Symbol id="tts-220899179" name="Basic Attention Token" ticker="BATUSD"/>
+	<Symbol id="tts-224433232" name="Zilliqa" ticker="ZILUSD"/>
+	<Symbol id="tts-203872671" name="Loopring" ticker="LRCUSD"/>
+	<Symbol id="tts-256811599" name="Gnosis" ticker="GNOUSD"/>
+	<Symbol id="tts-140383337" name="Bitcoin Gold" ticker="BTGUSD"/>
+	<Symbol id="tts-202544323" name="Kusama" ticker="KSMUSD"/>
+	<Symbol id="tts-203872677" name="yearn.finance" ticker="YFIUSD"/>
+	<Symbol id="tts-198572786" name="OMG Network" ticker="OMGUSD"/>
+	<Symbol id="tts-153377586" name="0x" ticker="ZRXUSD"/>
+	<Symbol id="tts-134675631" name="Golem" ticker="GNTUSD"/>
+	<Symbol id="tts-138482396" name="WAX" ticker="WAXUSD"/>
+	<Symbol id="tts-158181865" name="DigiByte" ticker="DGBUSD"/>
+	<Symbol id="tts-247436857" name="Status" ticker="SNTUSD"/>
+	<Symbol id="tts-212110862" name="Bancor" ticker="BNTUSD"/>
+	<Symbol id="tts-160570068" name="BitTorrent" ticker="BTTUSD"/>
+	<Symbol id="tts-163795216" name="Augur" ticker="REPUSD"/>
+	<Symbol id="tts-207436800" name="Aragon" ticker="ANTUSD"/>
+	<Symbol id="tts-142200518" name="Utrust" ticker="UTKUSD"/>
+	<Symbol id="tts-140565866" name="Verge" ticker="XVGUSD"/>
+	<Symbol id="tts-142200520" name="BLOCKv" ticker="VEEUSD"/>
+	<Symbol id="tts-131244228" name="Metaverse ETP" ticker="ETPUSD"/>
+</SymbolList>
