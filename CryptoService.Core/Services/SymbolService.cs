@@ -6,11 +6,11 @@ using CryptoService.Core.Responses;
 
 namespace CryptoService.Core.Services
 {
-    public class CryptocurrencyService
+    public class SymbolService
     {
         private readonly ISymbolRepository _symbolRepo;
         private readonly IPriceFinder _priceFinder;
-        public CryptocurrencyService(ISymbolRepository symbolRepo, IPriceFinder priceFinder)
+        public SymbolService(ISymbolRepository symbolRepo, IPriceFinder priceFinder)
         {
             _symbolRepo = symbolRepo;
             _priceFinder = priceFinder;

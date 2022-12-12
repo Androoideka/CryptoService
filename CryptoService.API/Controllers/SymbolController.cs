@@ -9,8 +9,8 @@ namespace CryptoService.API.Controllers
     [ApiController]
     public class SymbolController : ControllerBase
     {
-        private readonly CryptocurrencyService _service;
-        public SymbolController(CryptocurrencyService service)
+        private readonly SymbolService _service;
+        public SymbolController(SymbolService service)
         {
             _service = service;
         }

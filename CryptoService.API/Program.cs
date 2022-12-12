@@ -4,6 +4,7 @@ using CryptoService.Core.Seeders;
 using CryptoService.Core.Services;
 using CryptoService.Infrastructure.Data;
 using CryptoService.Infrastructure.Repositories;
+using CryptoService.Infrastructure.Seeders;
 using CryptoService.Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,12 +13,20 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
+
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseInMemoryDatabase("crypto"));
-builder.Services.AddHttpClient<IPriceFinder, BitfinexPriceFinder>();
 builder.Services.AddScoped<IRepository<Symbol>, SymbolRepository>();
 builder.Services.AddScoped<ISymbolRepository, SymbolRepository>();
-builder.Services.AddScoped<CryptocurrencyService, CryptocurrencyService>();
-builder.Services.AddScoped<Loader<Symbol>, TestLoader>();
+
+builder.Services.AddScoped(_ =>
+{
+    return new SeedFile("cryptos.xml", FileType.XML);
+});
+builder.Services.AddScoped<IReader<Symbol>, XMLSymbolReader>();
+builder.Services.AddScoped<Loader<Symbol>, FileLoader<Symbol>>();
+
+builder.Services.AddHttpClient<IPriceFinder, BitfinexPriceFinder>();
+builder.Services.AddScoped<SymbolService, SymbolService>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

@@ -15,8 +15,4 @@
     <ProjectReference Include="..\CryptoService.Core\CryptoService.Core.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Serialization\" />
-  </ItemGroup>
-
 </Project>
